@@ -1,0 +1,36 @@
+📁 ARQUIVOS ESSENCIAIS PARA UPLOAD NO GITHUB
+
+✅ ARQUIVOS PRINCIPAIS (OBRIGATÓRIOS):
+- streamlit_app.py (arquivo principal do Streamlit)
+- requirements.txt (dependências Python)
+- packages.txt (dependências do sistema)
+- README.md (documentação)
+- .gitignore (ignorar arquivos desnecessários)
+
+📁 PASTAS ESSENCIAIS:
+- .streamlit/ (configurações do Streamlit)
+  - config.toml
+- dashboard/ (módulo do dashboard)
+  - app_dashboard.py
+- data/ (dados de exemplo)
+  - input/
+    - ordens_servico.xlsx
+    - metricas.xlsx
+
+📁 PASTAS OPCIONAIS (podem ser incluídas):
+- config/ (configurações)
+- models/ (modelos)
+- src/ (código fonte)
+- tests/ (testes)
+
+❌ ARQUIVOS QUE NÃO DEVEM SER INCLUÍDOS:
+- logs/ (logs locais)
+- __pycache__/ (cache Python)
+- .env (variáveis de ambiente)
+- arquivos temporários
+
+📋 INSTRUÇÕES PARA UPLOAD:
+1. No GitHub, clique em "Add file" → "Upload files"
+2. Arraste todos os arquivos e pastas listados acima
+3. Adicione uma mensagem de commit: "Initial commit - Sistema Safra Dashboard"
+4. Clique em "Commit changes" 
